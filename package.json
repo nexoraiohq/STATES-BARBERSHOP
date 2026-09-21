@@ -1,0 +1,14 @@
+{
+  "name": "states-barbershop-api",
+  "version": "1.0.0",
+  "description": "First-party analytics API for States Barbershop",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "@vercel/postgres": "^0.10.0"
+  }
+}
