@@ -5,6 +5,7 @@ Premium Grooming Website — Umoja, Nairobi, Kenya
 A polished, responsive website for States Barbershop & Lounge, designed to showcase its services, team, space, gallery, reviews, and booking options.
 
 Live Site
+https://states-barbershop.vercel.app/
 
 
 Table of Contents
