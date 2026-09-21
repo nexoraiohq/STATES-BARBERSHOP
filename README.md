@@ -262,7 +262,3 @@ npx serve .
 ## License
 
 All rights reserved. This project and its contents are owned by States Barbershop & Lounge.
-<<<<<<< HEAD
->>>>>>> 23a2176 (push updated README.md)
-=======
->>>>>>> 23a2176ddf85b1ed1e6558987831cc761ee227d4
