@@ -1,12 +1,15 @@
 {
     "version": 2,
+    "installCommand": "npm install",
     "builds": [
         { "src": "api/**/*.js", "use": "@vercel/node" },
+        { "src": "assets/**", "use": "@vercel/static" },
         { "src": "static/**", "use": "@vercel/static" },
         { "src": "*.html", "use": "@vercel/static" }
     ],
     "routes": [
         { "src": "/api/(.*)", "dest": "/api/$1" },
+        { "src": "/assets/(.*)", "dest": "/assets/$1" },
         { "src": "/static/(.*)", "dest": "/static/$1" },
         { "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|mp4|woff|woff2|otf|ttf|html))", "dest": "/$1" }
     ]
