@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-=======
->>>>>>> 23a2176ddf85b1ed1e6558987831cc761ee227d4
 # States Barbershop & Lounge
 
 A premium, responsive website for States Barbershop & Lounge — a professional grooming destination in Umoja, Nairobi, Kenya.
