@@ -1,48 +1,103 @@
 States Barbershop & Lounge
+
 A premium, responsive website for States Barbershop & Lounge — a professional grooming destination in Umoja, Nairobi, Kenya.
 
 Live Site: https://states-barbershop.vercel.app/
 
 Table of Contents
+
 Overview
+
 Features
+
 Tech Stack
+
 Project Structure
+
 Pages
+
 Brand Guidelines
+
 Responsive Breakpoints
+
 Performance
+
 Accessibility
+
 SEO
+
 Deployment
+
 License
+
 Overview
+
 States Barbershop & Lounge is a static, multi-page website built with semantic HTML, SCSS/CSS, and vanilla JavaScript. It showcases the barbershop's services, team, space, gallery, and client reviews with a polished, dark-luxe aesthetic.
 
 Features
+
 Hero section with autoplay background video and play/pause control
+
 Animated fixed hero that stays in place while content scrolls over it
+
 Service cards with hover effects and booking CTAs
+
 Meet the Team barber grid
+
 Space showcase with image grid
+
 Experience section with 4-step process
+
 Gallery with filterable masonry grid (All / Haircuts / Beard / Space / Team)
+
 Client reviews from Google Maps with star ratings and stats
+
 Visit section with location, hours, contact info, and embedded Google Map
+
 Booking section with WhatsApp and phone CTAs, plus pricing card
+
 Full responsive footer with navigation, social links, and copyright
+
 Mobile menu with smooth slide-in animation and staggered link reveals
+
 Header that auto-hides on scroll down and reappears on scroll up
+
 Tech Stack
-Layer	Technology
-Markup	HTML5 (semantic)
-Styling	CSS3 (custom properties, grid, flexbox)
-Source CSS	SCSS (compiled to CSS)
-Scripts	Vanilla JavaScript (ES6+)
-Icons	Font Awesome 7.3.1 (CDN)
-Fonts	SF Pro Display (self-hosted), Nevera (self-hosted)
-Hosting	Vercel
+
+LayerTechnology
+
+
+
+Markup
+
+HTML5 (semantic)
+
+Styling
+
+CSS3 (custom properties, grid, flexbox)
+
+Source CSS
+
+SCSS (compiled to CSS)
+
+Scripts
+
+Vanilla JavaScript (ES6+)
+
+Icons
+
+Font Awesome 7.3.1 (CDN)
+
+Fonts
+
+SF Pro Display (self-hosted), Nevera (self-hosted)
+
+Hosting
+
+Vercel
+
 Project Structure
+
 STATES/
 ├── index.html                  # Main homepage
 ├── gallery.html                # Full gallery page
@@ -87,103 +142,327 @@ STATES/
 │       └── global/
 │           └── global.js           # Header scroll, mobile menu logic
 └── README.md
+
 Pages
+
 index.html (Homepage)
-Section	ID	Description
-Hero	—	Video background with headline and CTA
-Brand Statement	—	Brand pillars: Craft, Experience, Personal
-Services	#services	4 service cards (Haircut, Beard, Hair+Beard, Shave)
-Process	—	3-step process (Consult, Craft, Finish)
-Craft Cinematic	—	Full-width cinematic image with overlay
-Team	—	4 barber profiles with images
-Space	#space	Interior and detail images
-Experience	#experience	4-step experience journey
-Gallery	#gallery	6-image grid with "View All" link
-Reviews	#reviews	Google rating, stats, 5 client reviews
-Visit	#visit	Location, hours, contact cards + Google Maps
-Contact	#contact	WhatsApp booking, phone, social links, pricing
-Footer	—	Navigation, social links, copyright
+
+SectionIDDescription
+
+
+
+
+
+Hero
+
+—
+
+Video background with headline and CTA
+
+Brand Statement
+
+—
+
+Brand pillars: Craft, Experience, Personal
+
+Services
+
+#services
+
+4 service cards (Haircut, Beard, Hair+Beard, Shave)
+
+Process
+
+—
+
+3-step process (Consult, Craft, Finish)
+
+Craft Cinematic
+
+—
+
+Full-width cinematic image with overlay
+
+Team
+
+—
+
+4 barber profiles with images
+
+Space
+
+#space
+
+Interior and detail images
+
+Experience
+
+#experience
+
+4-step experience journey
+
+Gallery
+
+#gallery
+
+6-image grid with "View All" link
+
+Reviews
+
+#reviews
+
+Google rating, stats, 5 client reviews
+
+Visit
+
+#visit
+
+Location, hours, contact cards + Google Maps
+
+Contact
+
+#contact
+
+WhatsApp booking, phone, social links, pricing
+
+Footer
+
+—
+
+Navigation, social links, copyright
+
 gallery.html
+
 Full gallery with 12 images
+
 Filter tabs: All / Haircuts / Beard / Space / Team
+
 CSS Grid with grid-auto-rows for consistent 10px gaps
+
 Back-to-home link
+
 Brand Guidelines
+
 Colors
-Token	Hex	Usage
---color-primary	#1C1B19	Dark backgrounds, text
---color-secondary	#F3EEE5	Light backgrounds, cream
---color-accent	#A8895E	Gold accent, CTAs, eyebrows
---color-white	#FCFCFA	Off-white text on dark
---color-text	#292724	Body text
---color-text-muted	#746F68	Secondary text
---color-border	#DED8CE	Borders, dividers
---color-surface	#FAF8F4	Card surfaces
+
+TokenHexUsage
+
+
+
+
+
+--color-primary
+
+#1C1B19
+
+Dark backgrounds, text
+
+--color-secondary
+
+#F3EEE5
+
+Light backgrounds, cream
+
+--color-accent
+
+#A8895E
+
+Gold accent, CTAs, eyebrows
+
+--color-white
+
+#FCFCFA
+
+Off-white text on dark
+
+--color-text
+
+#292724
+
+Body text
+
+--color-text-muted
+
+#746F68
+
+Secondary text
+
+--color-border
+
+#DED8CE
+
+Borders, dividers
+
+--color-surface
+
+#FAF8F4
+
+Card surfaces
+
 Fonts
-Token	Font	Usage
---font-primary	SF Pro Display	All body text, headings, UI
---font-secondary	Nevera	Decorative / italic accents
+
+TokenFontUsage
+
+
+
+
+
+--font-primary
+
+SF Pro Display
+
+All body text, headings, UI
+
+--font-secondary
+
+Nevera
+
+Decorative / italic accents
+
 Font Weights
-Token	Value
---fw-regular	400
---fw-medium	500
---fw-bold	600
---fw-semi-bold	700
+
+TokenValue
+
+
+
+--fw-regular
+
+400
+
+--fw-medium
+
+500
+
+--fw-bold
+
+600
+
+--fw-semi-bold
+
+700
+
 Responsive Breakpoints
-Breakpoint	Target
-1200px	Large laptops
-1024px	Tablets / small laptops
-800px	Mobile navigation toggle
-767px	Mobile devices
-600px	Small mobile
-480px	Small phones
-375px	iPhone SE / compact
+
+BreakpointTarget
+
+
+
+1200px
+
+Large laptops
+
+1024px
+
+Tablets / small laptops
+
+800px
+
+Mobile navigation toggle
+
+767px
+
+Mobile devices
+
+600px
+
+Small mobile
+
+480px
+
+Small phones
+
+375px
+
+iPhone SE / compact
+
 Performance
+
 Preconnect to CDN domains (cdnjs.cloudflare.com, i.pinimg.com)
+
 Lazy loading on all below-fold images (loading="lazy")
+
 Eager loading on above-fold logo
+
 Explicit width/height on all images to prevent CLS
+
 Self-hosted fonts with font-display: swap
+
 Deferred scripts (defer attribute on all <script> tags)
+
 Minimal dependencies — no frameworks, no build step required
+
 Accessibility
+
 Skip-to-content link (visible on keyboard focus)
+
 Semantic HTML — <header>, <main>, <footer>, <nav>, <section>, <article>
+
 ARIA attributes — aria-label, aria-hidden, aria-expanded, aria-controls, aria-selected
+
 Focus management — mobile menu focus trap, Escape key to close
+
 Color contrast — text meets WCAG AA on all backgrounds
+
 Alt text on all images
+
 Keyboard navigable — all interactive elements are focusable
+
 role="contentinfo" on footer, role="dialog" on mobile menu
+
 SEO
+
 Title tag and meta description per page
+
 Open Graph tags (og:title, og:description, og:image, og:url, og:site_name, og:locale)
+
 Twitter Card meta tags
+
 Geo meta tags (geo.region, geo.placename, geo.position, ICBM)
+
 Canonical URLs
+
 JSON-LD structured data (Barbershop schema with address, hours, aggregate rating)
+
 Robots meta (index, follow)
+
 Semantic heading hierarchy (h1 → h2 → h3)
+
 Deployment
+
 This project is deployed on Vercel as a static site.
 
 Deploy your own
+
 Fork or clone this repository
+
 Push to a Git provider (GitHub, GitLab, Bitbucket)
+
 Import the project on vercel.com
+
 Vercel auto-detects the static site — no build configuration needed
+
 Deploy
+
 # Local development
 # Simply open index.html in a browser, or use a local server:
 npx serve .
+
 Contact
+
 States Barbershop & Lounge Umoja, Nairobi, Kenya
 
 Phone: +254 757 851 301
+
 WhatsApp: Chat on WhatsApp
+
 Instagram: @statesbarbershop
+
 TikTok: @statesbarbershop
+
 Facebook: States Barbershop
+
 Google Maps: View on Google Maps
+
 License
+
 All rights reserved. This project and its contents are owned by States Barbershop & Lounge.
