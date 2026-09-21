@@ -1,0 +1,13 @@
+{
+  "name": "states-analytics-api",
+  "version": "1.0.0",
+  "description": "API client for States Barbershop analytics",
+  "main": "lib/api.js",
+  "scripts": {
+    "dashboard": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
