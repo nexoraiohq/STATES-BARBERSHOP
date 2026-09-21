@@ -654,8 +654,8 @@ body {
 .footer {
     position: relative;
     z-index: 2;
-    background-color: var(--color-primary);
-    border-top: 1px solid rgba(252, 252, 250, 0.08);
+    background-color: #E5DDD0;
+    border-top: 1px solid var(--color-border);
     padding: 60px 123px 40px;
 }
 
@@ -670,7 +670,7 @@ body {
     gap: 60px;
     margin-bottom: 48px;
     padding-bottom: 40px;
-    border-bottom: 1px solid rgba(252, 252, 250, 0.08);
+    border-bottom: 1px solid var(--color-border);
 }
 
 .footer .footer-top .footer-brand .footer-logo img {
@@ -683,7 +683,7 @@ body {
     font-size: 14px;
     line-height: 22px;
     font-weight: var(--fw-medium);
-    color: rgba(252, 252, 250, 0.5);
+    color: var(--color-text-muted);
     font-family: var(--font-primary);
 }
 
@@ -702,7 +702,7 @@ body {
     font-size: 13px;
     line-height: 20px;
     font-weight: var(--fw-bold);
-    color: var(--color-white);
+    color: #0A2540;
     font-family: var(--font-primary);
     text-transform: uppercase;
     letter-spacing: 0.04em;
@@ -713,13 +713,13 @@ body {
     font-size: 14px;
     line-height: 22px;
     font-weight: var(--fw-medium);
-    color: rgba(252, 252, 250, 0.5);
+    color: var(--color-text-muted);
     font-family: var(--font-primary);
     transition: color var(--transition-fast);
 }
 
 .footer .footer-top .footer-links .footer-col a:hover {
-    color: var(--color-white);
+    color: var(--color-primary);
 }
 
 .footer .footer-bottom {
@@ -732,7 +732,7 @@ body {
     font-size: 13px;
     line-height: 20px;
     font-weight: var(--fw-medium);
-    color: rgba(252, 252, 250, 0.35);
+    color: var(--color-text-muted);
     font-family: var(--font-primary);
 }
 

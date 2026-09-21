@@ -2472,7 +2472,7 @@ img {
    GALLERY SECTION
 ========================================= */
 .gallery {
-  background-color: var(--color-white);
+  background-color: var(--color-secondary);
   padding: 80px 123px 120px;
 }
 .gallery .gallery-cont .heading-wrap {
@@ -2676,6 +2676,14 @@ img {
   font-family: var(--font-primary);
   margin: 0;
 }
+.visit .visit-cont .visit-info .visit-card .visit-details p a {
+  color: #425466;
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.visit .visit-cont .visit-info .visit-card .visit-details p a:hover {
+  color: var(--color-accent);
+}
 .visit .visit-cont .visit-map {
   border-radius: 8px;
   overflow: hidden;
@@ -2714,7 +2722,7 @@ img {
    CONTACT / BOOKING SECTION
 ========================================= */
 .contact {
-  background-color: var(--color-primary);
+  background-color: #E5DDD0;
   padding: 100px 123px;
 }
 .contact .contact-cont {
@@ -2738,7 +2746,7 @@ img {
   line-height: 48px;
   font-weight: var(--fw-bold);
   letter-spacing: normal;
-  color: var(--color-white);
+  color: #0A2540;
   font-family: var(--font-primary);
   margin: 0 0 20px;
 }
@@ -2746,7 +2754,7 @@ img {
   font-size: 18px;
   line-height: 28px;
   font-weight: var(--fw-medium);
-  color: rgba(252, 252, 250, 0.7);
+  color: #425466;
   font-family: var(--font-primary);
   margin-bottom: 40px;
 }
@@ -2781,17 +2789,17 @@ img {
   background-color: #8a7149;
 }
 .contact .contact-left .contact-methods .phone {
-  background-color: rgba(252, 252, 250, 0.1);
-  border: 1px solid rgba(252, 252, 250, 0.18);
-  color: var(--color-white);
+  background-color: rgba(28, 27, 25, 0.06);
+  border: 1px solid var(--color-border);
+  color: #1C1B19;
 }
 .contact .contact-left .contact-methods .phone:hover {
-  background-color: rgba(252, 252, 250, 0.16);
+  background-color: rgba(28, 27, 25, 0.1);
 }
 .contact .contact-left .contact-socials .follow-text {
   font-size: 13px;
   font-weight: var(--fw-medium);
-  color: rgba(252, 252, 250, 0.5);
+  color: var(--color-text-muted);
   font-family: var(--font-primary);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -2808,18 +2816,18 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid rgba(252, 252, 250, 0.18);
-  color: var(--color-white);
+  border: 1px solid var(--color-border);
+  color: var(--color-primary);
   font-size: 16px;
   transition: background-color var(--transition-fast), border-color var(--transition-fast);
 }
 .contact .contact-left .contact-socials .social-links a:hover {
-  background-color: rgba(252, 252, 250, 0.1);
-  border-color: rgba(252, 252, 250, 0.3);
+  background-color: rgba(28, 27, 25, 0.06);
+  border-color: var(--color-text-muted);
 }
 .contact .contact-right .booking-card {
-  background: rgba(252, 252, 250, 0.06);
-  border: 1px solid rgba(252, 252, 250, 0.1);
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
   border-radius: 12px;
   padding: 36px;
 }
@@ -2827,7 +2835,7 @@ img {
   font-size: 20px;
   line-height: 28px;
   font-weight: var(--fw-bold);
-  color: var(--color-white);
+  color: #0A2540;
   font-family: var(--font-primary);
   margin: 0 0 28px;
 }
@@ -2841,7 +2849,7 @@ img {
   align-items: center;
   justify-content: space-between;
   padding: 16px 0;
-  border-bottom: 1px solid rgba(252, 252, 250, 0.08);
+  border-bottom: 1px solid var(--color-border);
 }
 .contact .contact-right .booking-card .price-list .price-item:last-child {
   border-bottom: none;
@@ -2849,7 +2857,7 @@ img {
 .contact .contact-right .booking-card .price-list .price-item .service-name {
   font-size: 15px;
   font-weight: var(--fw-medium);
-  color: rgba(252, 252, 250, 0.8);
+  color: var(--color-text);
   font-family: var(--font-primary);
 }
 .contact .contact-right .booking-card .price-list .price-item .service-price {
@@ -2860,7 +2868,7 @@ img {
 }
 .contact .contact-right .booking-card .price-note {
   font-size: 13px;
-  color: rgba(252, 252, 250, 0.4);
+  color: var(--color-text-muted);
   font-family: var(--font-primary);
   margin: 20px 0 0;
 }
